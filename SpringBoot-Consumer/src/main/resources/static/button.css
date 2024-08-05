@@ -1,0 +1,51 @@
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--primary);
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    color:  var(--tertiary);
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px 0px;
+}
+
+a>svg{
+    stroke: var(--tertiary);
+    margin-right: 10px;
+}
+
+a:hover, a:active, a:focus{
+    background-color: var(--primaryHover);
+    outline: none;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--primary);
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    color:  var(--tertiary);
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button>svg{
+    stroke: var(--tertiary);
+    margin-right: 10px;
+}
+
+button:hover, button:active, button:focus{
+    background-color: var(--primaryHover);
+    outline: none;
+}

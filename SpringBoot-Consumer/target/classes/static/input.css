@@ -1,0 +1,26 @@
+input{
+    width: calc(100% - 22px);
+    background: var(--gray15);
+    border: 1px solid var(--gray25);
+    border-radius: 2px;
+    padding: 4px 10px;
+    height: 40px;
+    font-size: 16px;
+}
+
+
+input:hover, input:active, input:focus{
+    border-color: var(--primaryHover);
+    outline: none;
+}
+
+input150 {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    margin-bottom: 5px;
+}
+
+label{
+    display: flex;
+    align-items: center;
+}

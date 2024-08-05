@@ -1,0 +1,26 @@
+table{
+    width: 100%;
+}
+
+
+thead > tr{
+    background-color: var(--primary);
+    text-align: center;
+}
+
+thead > tr > th{
+    color: white;
+    font-weight: 500;
+}
+
+tbody{
+    background-color: var(--gray15);
+    vertical-align: inherit;
+    text-align: center;
+}
+
+tbody > tr > td{
+    height: 40px;
+    text-wrap: wrap;
+    border-bottom: 5px solid white;
+}

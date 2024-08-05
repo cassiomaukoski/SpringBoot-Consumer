@@ -1,0 +1,10 @@
+:root{
+    --primary: #2D525C;
+    --primary60: rgba(45, 82, 92, 0.6);
+    --primaryHover: #20373D;
+    --secondary: #383838;
+    --secondaryHover: #212121;
+    --tertiary: #FFFFFF;
+    --gray25: rgba(144, 144, 144, 0.25);
+    --gray15: rgba(144, 144, 144, 0.15);
+}
